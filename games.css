@@ -32,7 +32,7 @@ body{
 }
 .the_name{
     margin-left:50px;
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     font-family: MarkPro;
@@ -50,6 +50,10 @@ body{
     display:flex;
     flex-direction: column;
     width:300px;
+    transition: transform .2s;
+}
+.games_and_names:hover{
+  transform: scale(1.25);
 }
 
 .names{
@@ -63,4 +67,5 @@ body{
     height: 50px;
     align-items: center;
     color: #c4b998;
+    border-radius: 25px
 }
