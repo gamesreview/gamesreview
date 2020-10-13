@@ -2,12 +2,18 @@
     font-family: MarkPro;
     src: url(FontFont_FF.Mark.Pro.Black.otf);
 }
+body{
+    display:flex;
+    justify-content:center;
+}
 
 .page{
-    width: 1910px;
-    height: 1080px;
-    background-color: #f6d327;
-    background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
+    width: 1920px;
+    height: 2000px;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     z-index: 0;
     display: flex;
     flex-direction: column;
@@ -30,4 +36,31 @@
     display: flex;
     align-items: center;
     font-family: MarkPro;
+    color: #c4b998;
+}
+.line_games{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.games_and_names{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+}
+
+.names{
+    margin-top: 10px;
+    border:1px #c4b998 solid;
+    display:flex;
+    justify-content: center;
+    font-family: MarkPro;
+    font-size: 25px;
+    font-weight: lighter;
+    height: 50px;
+    align-items: center;
+    color: #c4b998;
 }
