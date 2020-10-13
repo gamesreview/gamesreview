@@ -6,6 +6,10 @@
     font-family: MarkPro2;
     src: url(FontFont_FF.Mark.Pro.otf)
 }
+@font-face{
+    font-family: League;
+    src:url(Friz_Quadrata_Bold.otf)
+}
 body{
     display:flex;
     justify-content:center;
@@ -64,7 +68,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     font-family: MarkPro2;
-    font-size: 20px;
+    font-size: 25px;
     color: #c4b998;
 }
 .teaser{
