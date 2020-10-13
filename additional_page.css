@@ -2,20 +2,22 @@
     font-family: MarkPro;
     src: url(FontFont_FF.Mark.Pro.Black.otf);
 }
+@font-face{
+    font-family: MarkPro2;
+    src: url(FontFont_FF.Mark.Pro.otf)
+}
 body{
     display:flex;
     justify-content:center;
-    align-items: center;
 }
 
 .page{
-    width: 100%;
+    width:100%;
     height: 100%;
-    background: linear-gradient(to bottom, #24243e, #302b63, #111111);
+    background: linear-gradient(to top, #24243e, #302b63, #111111);
     z-index: 0;
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap
 }
 .firstline{
     margin-top: 10px;
@@ -33,39 +35,46 @@ body{
     display: flex;
     align-items: center;
     font-family: MarkPro;
+    color:#c4b998;
+}
+.icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    transition: transform .5s;
+}
+.icon:hover{
+    transform :scale(1.25)
+}
+
+.gamesname{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: MarkPro;
     color: #c4b998;
 }
-.line_games{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 50px;
+.info{
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 50px;
-}
-.games_and_names{
     display:flex;
-    flex-direction: column;
-    width:300px;
-    transition: transform .2s;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: MarkPro2;
+    font-size: 20px;
+    color: #c4b998;
 }
-.games_and_names:hover{
-  transform: scale(1.25);
-}
-
-.names{
-    margin-top: 10px;
-    border:1px #c4b998 solid;
+.teaser{
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
     display:flex;
     justify-content: center;
-    font-family: MarkPro;
-    font-size: 25px;
-    font-weight: lighter;
-    height: 50px;
     align-items: center;
-    color: #c4b998;
-    border-radius: 25px
+
 }
 .credit_line{
     display:flex;
@@ -74,7 +83,7 @@ body{
     width:100%;
     height: 50px;
     background-color: #111111;
-    border-top:2px rgba(51, 51, 51,25);
+    border-top:2px black;
     color: white;
     font-family: MarkPro;
     font-size: 25px;
