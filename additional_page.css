@@ -87,3 +87,14 @@ body{
     font-family: MarkPro;
     font-size: 25px;
 }
+.icon1 img{
+    transition: transform .2s;
+}
+.icon1 img:hover{
+    transform: scale(1.2);
+}
+.icon1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
