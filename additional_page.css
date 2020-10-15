@@ -10,6 +10,18 @@
     font-family: League;
     src:url(Friz_Quadrata_Bold.otf)
 }
+@font-face{
+    font-family: Val;
+    src: url(valorant_font.ttf);
+}
+@font-face{
+    font-family: Dota;
+    src: url(dota_font.ttf)
+}
+@font-face{
+    font-family: cs;
+    src: url(cs_regular.ttf);
+}
 body{
     display:flex;
     justify-content:center;
@@ -18,7 +30,7 @@ body{
 .page{
     width:100%;
     height: 100%;
-    background: linear-gradient(to top, #24243e, #302b63, #111111);
+    background: linear-gradient(to bottom, #111111, #302b63, #111111);
     z-index: 0;
     display: flex;
     flex-direction: column;
@@ -52,7 +64,6 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 50px;
-    font-family: MarkPro;
     color: #c4b998;
 }
 .info{
@@ -89,9 +100,10 @@ body{
 }
 .icon1 img{
     transition: transform .2s;
+    border-radius: 50%;
 }
 .icon1 img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .icon1{
     display: flex;
