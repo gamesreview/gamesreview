@@ -36,6 +36,52 @@ body{
     font-family: MarkPro;
     color: #c4b998;
 }
+.navbar{
+    margin-left: 50px;
+    font-family: MarkPro;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c4b998;
+}
+.navbar a{
+    text-decoration: none;
+    color: #c4b998;
+}
+.dropdown .dropbtn {
+    font-size: inherit;  
+    border: none;
+    outline: none;
+    color: inherit;
+    background-color: inherit;
+    font-family: inherit;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    transition: 0.2s;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #302b63;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #c4b998;
+    padding: 12px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
 .line_games{
     display:flex;
     flex-direction: row;
