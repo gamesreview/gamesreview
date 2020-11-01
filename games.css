@@ -20,7 +20,7 @@ body{
 }
 .firstline{
     height : 60px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     z-index: 1;
     background-color: rgb(32,32,32);
@@ -28,9 +28,10 @@ body{
 .the_icon{
     margin-left: 50px;
 }
+
 .the_name{
-    margin-left:50px;
-    font-size: 50px;
+    margin-left:30px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     font-family: MarkPro;
@@ -38,7 +39,7 @@ body{
 }
 .menu {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   position: relative;
   width: auto;
 }
@@ -50,18 +51,19 @@ body{
   text-decoration: none;
   font-family: MarkPro;
   color: #c4b998;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .menu .dropdown {
-  background: rgb(64,64,32);
+  background: rgb(32,32,32);
   height: auto;
   left: auto;
   opacity: 0;
   position: absolute;
   transition: all .2s ease;
   width: 200%;
-  border-radius: 3%;
+  margin-bottom: 10px;
+  margin-top: 9px;
 }
 
 .menu .list:hover .dropdown {
@@ -73,20 +75,20 @@ body{
 .menu .dropdown a {
   color: #c4b998 ;
   display: block;
-  font-size: 30px;
+  font-size: 25px;
   font-family: MarkPro;
   margin-top: 2px;
-  margin-left: 2px;
+  
 }
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    margin-left: 50px;
+    font-size: 25px;
+    width: 75%;
 }
 .idk{
-    font-size: 30px;
     font-family: MarkPro;
     margin-left: 30px;
     color:  #c4b998; 
