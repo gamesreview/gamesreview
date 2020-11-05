@@ -23,10 +23,11 @@ body{
     display: flex;
     flex-direction: row;
     z-index: 1;
-    background-color: rgb(32,32,32);
+    background-color: rgb(32,32,32)    
 }
 .the_icon{
     margin-left: 50px;
+    padding-top: 5px;
 }
 
 .the_name{
@@ -87,6 +88,7 @@ body{
     align-items: center;
     font-size: 25px;
     width: 75%;
+
 }
 .idk{
     font-family: MarkPro;
