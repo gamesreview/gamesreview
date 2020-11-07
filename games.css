@@ -1,6 +1,6 @@
 @font-face{
     font-family: MarkPro;
-    src: url(FontFont_FF.Mark.Pro.Black.otf);
+    src: url(Fonts/FontFont_FF.Mark.Pro.Black.otf);
 }
 body{
     display:flex;
@@ -46,7 +46,6 @@ body{
 }
 
 .menu > .list > a {
-  color: #fff;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -79,7 +78,6 @@ body{
   font-size: 25px;
   font-family: MarkPro;
   margin-top: 2px;
-  
 }
 .navbar{
     display: flex;
@@ -88,7 +86,6 @@ body{
     align-items: center;
     font-size: 25px;
     width: 75%;
-
 }
 .idk{
     font-family: MarkPro;
@@ -97,6 +94,7 @@ body{
 }
 .navbar a{
     text-decoration: none;
+    padding-left:5px;
 }
 .line_games{
     display:flex;
