@@ -105,3 +105,40 @@ body{
 .navbar a{
       text-decoration: none;
 }
+.content{
+  display:flex;
+  flex-direction:row;
+}
+.c1{
+  display:flex;
+  flex-direction: column;
+  margin: 50px 0 0 100px;
+  width:1280px;
+}
+.bigger{
+  background-color: aquamarine;
+  height:720px;
+}
+.big{
+  display: flex;
+  flex-direction: row;
+  margin:50px 0 0 0;
+  height:360px;
+}
+.h_news{
+  background-color: palegreen;
+  width:600px;
+  margin:0 20px 0 20px;
+}
+.c2{
+  margin:0 100px 0 100px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width:300px;
+}
+.v_news{
+  height:200px;
+  background-color: tomato;
+  margin-top: 100px
+}
