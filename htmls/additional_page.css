@@ -1,10 +1,10 @@
 @font-face{
     font-family: MarkPro;
-    src: url(FontFont_FF.Mark.Pro.Black.otf);
+    src: url(../Fonts/FontFont_FF.Mark.Pro.Black.otf);
 }
 @font-face{
     font-family: MarkPro2;
-    src: url(FontFont_FF.Mark.Pro.otf)
+    src: url(../Fonts/FontFont_FF.Mark.Pro.otf)
 }
 @font-face{
     font-family: League;
