@@ -113,3 +113,15 @@ body{
     align-items: center;
     justify-content: center;
 }
+.star{
+    display: flex;
+    font-size: 70px;
+    margin-left: 200px;
+
+  }
+.rating{
+    font-size: 30px;
+    color:#c4b998 ;
+    margin-left: 200px;
+    font-family: MarkPro;
+}
