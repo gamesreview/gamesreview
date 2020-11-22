@@ -13,7 +13,7 @@ body{
 .page{
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom, #111111, #100d2b, #111111);
+    background: linear-gradient(to bottom, #111111, #302b63, #111111);
     z-index: 0;
     display: flex;
     flex-direction: column;
@@ -218,6 +218,7 @@ body{
 
 }
 .h_news{
+  background-size: cover;
   width:600px;
   border-radius: 3%;
 }
@@ -229,7 +230,7 @@ body{
   width:300px;
 }
 .v_news{
-  height:300px;
+  height:100px;
   background-color: tomato;
   margin-top:50px;
   border-radius: 3%;
@@ -240,21 +241,18 @@ body{
   margin-top: 25px;
 }
 .news_image{
-  width:300px;
-  background-color: palegreen;
+  background-size: cover;
   margin-top:25px;
-  height:200px;
+  height:auto;
   border-radius: 3%;
 }
 .news_info{
   width:500px;
+  background-color: aquamarine;
   margin-left: 25px;
   margin-top:25px;
   height:200px;
   border-radius: 3%;
-  font-family: MarkPro2;
-  font-size: 30px;
-  color: #c4b998;
 }
 .credit_line{
   display:flex;
@@ -268,5 +266,6 @@ body{
   font-family: MarkPro;
   font-size: 25px;
 }
+
 
 
