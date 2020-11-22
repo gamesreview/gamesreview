@@ -230,7 +230,7 @@ body{
   width:300px;
 }
 .v_news{
-  height:100px;
+  height:300px;
   background-color: tomato;
   margin-top:50px;
   border-radius: 3%;
@@ -248,11 +248,13 @@ body{
 }
 .news_info{
   width:500px;
-  background-color: aquamarine;
   margin-left: 25px;
   margin-top:25px;
   height:200px;
   border-radius: 3%;
+  font-family: MarkPro;
+  color:#c4b998;
+  font-size: 30px;
 }
 .credit_line{
   display:flex;
