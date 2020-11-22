@@ -25,6 +25,7 @@ body{
     flex-direction: row;
     z-index: 1;
     background-color: rgb(32,32,32);
+    position: relative;
 }
 .the_icon{
     margin-left: 50px;
@@ -89,7 +90,9 @@ body{
     justify-content: flex-end;
     align-items: center;
     font-size: 25px;
-    width: 75%;
+    position:absolute;
+    right:50px;
+    bottom:12.5px;
 }
 .idk{
     font-family: MarkPro;
@@ -150,11 +153,11 @@ body{
   font-size: 30px;
   font-family: MarkPro;
   position: absolute;
-  bottom:0;
+  bottom:0px;
   width: 100%;
   text-align: center;
   background-color: #111111;
-  opacity: 0.5;
+  opacity: 0.75;
   right:0 ;
   left:0;
   display: flex;
@@ -220,7 +223,11 @@ body{
 .h_news{
   background-size: cover;
   width:600px;
-  border-radius: 3%;
+  transition: transform .2s;
+  position: relative;
+}
+.h_news:hover{
+  transform: scale(1.1);
 }
 .c2{
   margin:0 100px 0 100px;
@@ -234,11 +241,19 @@ body{
   background-color: tomato;
   margin-top:50px;
   border-radius: 3%;
+  transition: transform .2s
+}
+.v_news:hover{
+  transform: scale(1.25);
+}
+.v_news > img{
+  border-radius: 3%;
 }
 .news_row{
   display: flex;
   flex-direction: row;
   margin-top: 25px;
+  width: 100%;
 }
 .news_image{
   background-size: cover;
@@ -247,7 +262,7 @@ body{
   border-radius: 3%;
 }
 .news_info{
-  width:500px;
+  width:100%;
   margin-left: 25px;
   margin-top:25px;
   height:200px;
@@ -256,17 +271,48 @@ body{
   color:#c4b998;
   font-size: 30px;
 }
+.news_info:hover{
+  color: white;
+}
+.aboutUs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 550px;
+  font-family: MarkPro;
+  font-size: 14px;
+  color: #c4b998;
+  margin-left: 200px;
+  margin-right:200px;
+  margin-bottom: 100px;
+}
+h1{
+  font-size: 50px;
+}
+.aboutUs p{
+  font-size: 30px;
+}
+.credit_line > .logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 180px;
+}
 .credit_line{
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width:100%;
-  height: 50px;
+  height: 100%;
   background-color: #111111;
-  border-top:2px rgba(51, 51, 51,25);
+  border-top:2px gray solid;
   color: white;
   font-family: MarkPro;
-  font-size: 25px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 
